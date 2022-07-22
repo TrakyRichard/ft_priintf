@@ -1,0 +1,361 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Fri Jul 22 22:38:59 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/richard/Desktop/42Path/ft_printf
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /Users/richard/opt/anaconda3/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/flutter/bin
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Yhfgs15UNI/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `Makefile', line 19)
+OBJS = $(SRCS:.c=.o)
+# environment
+PWD = /Users/richard/Desktop/42Path/ft_printf
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/richard
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/richard/Library/Application Support/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LOGNAME = richard
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+ZSH = /Users/richard/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `Makefile', line 3)
+SRCS = ft_printf.c utils/ft_print_char.c utils/ft_print_str.c utils/ft_print_int.c utils/ft_print_adrr.c utils/ft_print_hex.c utils/ft_print_dec.c utils/ft_print_unknown.c utils/ft_print_unsigned.c utils/ft_print_hex_upper.c utils/ft_print_percent.c tests/main.c 
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 16)
+CC = gcc
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = richard
+# makefile
+.DEFAULT_GOAL := "liftprintf.a"
+# makefile (from `Makefile', line 1)
+NAME = "liftprintf.a"
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/wc/zcbb5wbs127733r1s2b3t9f80000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/richard/Library/Application Support/Code/1.69.2-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.86183123.86183129
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from `Makefile', line 17)
+FLAGS = -c -Wall -Wextra -Werror
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 836
+# variable set hash-table stats:
+# Load=72/1024=7%, Rehash=0, Collisions=9/108=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777234, inode 84145414): 15 files, no impossibilities.
+
+# 15 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+utils/ft_print_unsigned.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-19 03:22:20
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/ft_print_adrr.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-19 03:22:20
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+all: "liftprintf.a"
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+
+"liftprintf.a": ft_printf.o utils/ft_print_char.o utils/ft_print_str.o utils/ft_print_int.o utils/ft_print_adrr.o utils/ft_print_hex.o utils/ft_print_dec.o utils/ft_print_unknown.o utils/ft_print_unsigned.o utils/ft_print_hex_upper.o utils/ft_print_percent.o tests/main.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := "liftprintf.a"
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := ft_printf.o utils/ft_print_char.o utils/ft_print_str.o utils/ft_print_int.o utils/ft_print_adrr.o utils/ft_print_hex.o utils/ft_print_dec.o utils/ft_print_unknown.o utils/ft_print_unsigned.o utils/ft_print_hex_upper.o utils/ft_print_percent.o tests/main.o
+# automatic
+# | := 
+# automatic
+# < := ft_printf.o
+# automatic
+# ^ := ft_printf.o utils/ft_print_char.o utils/ft_print_str.o utils/ft_print_int.o utils/ft_print_adrr.o utils/ft_print_hex.o utils/ft_print_dec.o utils/ft_print_unknown.o utils/ft_print_unsigned.o utils/ft_print_hex_upper.o utils/ft_print_percent.o tests/main.o
+# automatic
+# ? := ft_printf.o utils/ft_print_char.o utils/ft_print_str.o utils/ft_print_int.o utils/ft_print_adrr.o utils/ft_print_hex.o utils/ft_print_dec.o utils/ft_print_unknown.o utils/ft_print_unsigned.o utils/ft_print_hex_upper.o utils/ft_print_percent.o tests/main.o
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/16=19%
+#  commands to execute (from `Makefile', line 22):
+	$(CC) $(OBJS)
+	ar -rcs $(NAME) $(OBJS)
+	
+
+# Not a target:
+ft_printf.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-21 10:40:03
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/ft_print_percent.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-19 03:22:55
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-21 09:20:03
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/ft_print_unknown.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-19 03:22:20
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/ft_print_str.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-19 03:22:20
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+utils/ft_print_char.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-19 03:22:20
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+ 
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/ft_print_int.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-19 03:22:20
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/ft_print_hex.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-19 03:22:20
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/ft_print_hex_upper.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-21 10:11:46
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+tests/main.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-21 10:29:15
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/ft_print_dec.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-21 10:41:49
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=17/1024=2%, Rehash=0, Collisions=0/44=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Fri Jul 22 22:38:59 2022
+
+ 

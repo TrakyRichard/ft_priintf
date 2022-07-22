@@ -1,0 +1,18 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/richard/Desktop/42Path/ft_printf'
+gcc    -c -o ft_printf.o ft_printf.c
+gcc    -c -o utils/ft_print_char.o utils/ft_print_char.c
+gcc    -c -o utils/ft_print_str.o utils/ft_print_str.c
+gcc    -c -o utils/ft_print_int.o utils/ft_print_int.c
+gcc    -c -o utils/ft_print_adrr.o utils/ft_print_adrr.c
+gcc    -c -o utils/ft_print_hex.o utils/ft_print_hex.c
+gcc    -c -o utils/ft_print_dec.o utils/ft_print_dec.c
+gcc    -c -o utils/ft_print_unknown.o utils/ft_print_unknown.c
+gcc    -c -o utils/ft_print_unsigned.o utils/ft_print_unsigned.c
+gcc    -c -o utils/ft_print_hex_upper.o utils/ft_print_hex_upper.c
+gcc    -c -o utils/ft_print_percent.o utils/ft_print_percent.c
+gcc    -c -o tests/main.o tests/main.c
+gcc ft_printf.o utils/ft_print_char.o utils/ft_print_str.o utils/ft_print_int.o utils/ft_print_adrr.o utils/ft_print_hex.o utils/ft_print_dec.o utils/ft_print_unknown.o utils/ft_print_unsigned.o utils/ft_print_hex_upper.o utils/ft_print_percent.o tests/main.o
+ar -rcs "liftprintf.a" ft_printf.o utils/ft_print_char.o utils/ft_print_str.o utils/ft_print_int.o utils/ft_print_adrr.o utils/ft_print_hex.o utils/ft_print_dec.o utils/ft_print_unknown.o utils/ft_print_unsigned.o utils/ft_print_hex_upper.o utils/ft_print_percent.o tests/main.o
+make: Leaving directory `/Users/richard/Desktop/42Path/ft_printf'
+ 
